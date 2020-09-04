@@ -32,7 +32,7 @@ class DBLogic {
     );
   }
 
-  Future deleteAll(Note note) async {
+  Future deleteAll() async {
     await _notes.delete(
       await db,
     );
